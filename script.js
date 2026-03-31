@@ -1,12 +1,17 @@
-const number = '11959768301'
+
+const nEncode = 'MTE5NTk3NjgzMDE='
+const number = atob(nEncode)
 const link ='https:wa.me/' + number
 function whats(){
     window.open(link)
 }
 
 
+
+
+
 function orcamento(){
-   
+    
     const btn = document.querySelectorAll('.txt button')
     
     /*btn.addEventListener('click', orcamento)
@@ -16,7 +21,7 @@ function orcamento(){
     window.alert(texto  + value)
     
     event.preventDefault(orcamento)*/
-
+    
     btn.forEach((btn,index)=>{
         btn.addEventListener('click', (event) =>{
             event.preventDefault()
@@ -25,7 +30,7 @@ function orcamento(){
             let value = document.querySelectorAll('.txt span')[index].textContent
             const msg = `Olá gostaria de uma ${texto}, no valor de : ${value}`
             window.open(`${link}?text=${msg}`)
-        
+            
         })
     })
 }
