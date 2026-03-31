@@ -1,0 +1,120 @@
+.box1{
+   display: flex;
+  
+   align-items: center;
+   padding: 1em;
+
+
+}
+.box1 div{
+    display: flex;
+    flex-direction: column;
+    
+    
+    gap: 10px;
+    max-width: 800px;
+    margin: 5%;
+}
+.box1 i{
+   
+    font-size: 64px;
+    animation: mudarCor 3s ease-in-out infinite;
+}
+@keyframes mudarCor{
+    0%{
+        color: rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        color: rgb(189, 15, 15);
+    }
+}
+.box1 p{
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 800px;
+    margin: 10%;
+
+}
+.information ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/*estilos */
+.container-estilos{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    padding: 1em;
+    margin: 20%  0;
+}
+.container-estilos figure img{
+    width: 400px;
+    filter: saturate(0);
+}
+.container-estilos figure img:hover{
+    filter: saturate(1);
+}
+.container-estilos .box-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*valores*/
+.container-value h2{
+    
+    text-align: center;
+
+}
+.box-card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 5%;
+   
+}
+.card{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.432);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    width: 250px;
+}
+.card img{
+    width: 250px;
+    height: 300px;
+    border-radius: 24px;
+    filter: saturate(0);
+}
+.card .txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+.card span{
+    font-weight: 500;
+}
+
+
+/*estilos globais*/
+
+img:hover{
+    filter: saturate(1);
+}

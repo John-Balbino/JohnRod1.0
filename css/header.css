@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 1em;
+    
+    
+
+    
+}
+header .navbar{
+    display: flex;
+    gap: 1em;
+
+}
+header .navbar a {
+    font-size: 24px;
+    
+}
+header h1,a{
+    font-weight: 200;
+    font-size: 32px;
+    animation: aparecer 3s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+        font-weight: 600;
+        color: rgb(68, 68, 68);
+    }
+    to{
+        opacity: 1;
+        color: black;
+        
+    }
+}
+.whats i:hover{
+    color: green;
+    transform: scale(1.1);
+    cursor: pointer;    
+}
+.insta i:hover{
+    color: rgb(194, 0, 65);
+    transform: scale(1.1);
+    cursor: pointer;    
+}

@@ -1,0 +1,100 @@
+@media(max-width:1200px){
+    header{
+      
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        
+    
+
+        text-align: center;
+        
+    }
+    main section {
+        display: flex;
+      
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    section .obras{
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-obras1,.box-obras2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+        
+    }
+@media(max-width:700px){
+   
+    main{
+        display: flex;
+        width: 100%;
+        gap: 2em;
+    }
+    main section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .box-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+   
+}
+
+@media(max-width:400px){
+   
+    main{
+        display: flex;
+        width: 100%;
+        gap: 2em;
+    }
+    main section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .box-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+}  
