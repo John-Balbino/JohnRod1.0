@@ -4,7 +4,7 @@ const number = atob(nEncode)
 const link ='https://wa.me/' + number
 
 function whats(){
-    window.open(`${link}?text=${msg}`)
+    window.open(link)
 }
 
 
