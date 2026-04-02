@@ -2,6 +2,7 @@
 const nEncode = 'MTE5NTk3NjgzMDE='
 const number = atob(nEncode)
 const link ='https://wa.me/' + number
+
 function whats(){
     window.open(link)
 }
