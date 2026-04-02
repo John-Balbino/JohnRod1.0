@@ -3,7 +3,7 @@ const nEncode = 'MTE5NTk3NjgzMDE='
 const number = atob(nEncode)
 const link ='https://wa.me/' + number
 function whats(){
-    window.open(link)
+    window.open(`${link}?text=${msg}`)
 }
 
 
@@ -29,7 +29,7 @@ function orcamento(){
             let texto = document.querySelectorAll('.txt p')[index].textContent
             let value = document.querySelectorAll('.txt span')[index].textContent
             const msg = `Olá gostaria de uma ${texto}, no valor de : ${value}`
-            window.open(`${link}?text=${msg}`)
+            window.open(`${link}?text=${encondeURIComponent(msg)}`)
             
         })
     })
