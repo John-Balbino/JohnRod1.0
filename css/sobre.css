@@ -52,29 +52,42 @@
 
 /*estilos */
 .container-estilos{
+    border-top: 1px   solid rgb(0, 0, 0);
+    border-bottom: 1px   solid rgb(0, 0, 0);
     display: flex;
-    justify-content: space-between;
-    gap: 5em;
+    
+   
     padding: 1em;
     margin: 20%  0;
 }
+
 .container-estilos figure img{
-    width: 400px;
+    width: 300px;
+    border-radius: 24px;
+    
     filter: saturate(0);
 }
+
+
 .container-estilos figure img:hover{
     filter: saturate(1);
 }
 .container-estilos .box-txt{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 3em;
     text-align: center;
     width: 500px;
     margin: 0 auto;
 }
 
 /*valores*/
+.container-value{
+    display: flex;
+    flex-direction: column;
+   
+    font-size: 44px;
+}
 .container-value h2{
     
     text-align: center;
@@ -82,34 +95,36 @@
 }
 .box-card{
     display: flex;
+
     justify-content: space-evenly;
-    gap: 1em;
+    
     margin: 5%;
    
 }
 .card{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.432);
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    width: 250px;
+    align-items: center;
+    justify-content: center;
+    gap:2em;
 }
+
 .card img{
     width: 250px;
     height: 300px;
     border-radius: 24px;
     filter: saturate(0);
 }
-.card .txt{
+.card-txt,.card-txt2,.card-txt3{
     display: flex;
     flex-direction: column;
+    padding: 1em;
     gap: 1em;
-    text-align: center;
+   
 }
-.card span{
-    font-weight: 500;
+.box-card span{
+    font-weight: 800;
+    font-style: italic;
 }
 
 

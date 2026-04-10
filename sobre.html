@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/6860ca0aa6.js" crossorigin="anonymous" defer></script>
-
+    <!----------jquery---------->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-..." crossorigin="anonymous"></script>
     <!---------- css-link---------->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -73,60 +74,82 @@
         </article>
         <section class="container-estilos">
             <div class="box-txt">
-                <h2>Estilos de trabalho</h2>
-                <p>Estilos de tatuagem que são minha especialidade </p>
-                <h3>Graphic Tattoo</h3>
-                <p>O estilo de tatuagem Graphic Tattoo é marcado por linhas fortes, formas geométricas e composições
-                    visuais que lembram design gráfico e arte contemporânea. Ele se destaca pela clareza, contraste e
-                    impacto visual, sendo ideal para quem busca tatuagens modernas e ousadas.
+                <h2>Trabalho Autoral</h2>
+                <p>Artes que eu são minhas, feitas com muita dedicação, respeitando anatomia do corpo, pensado no minimos detalhes para que a arte envelheça de forma sáudavel.</p>
+                <h3>Blackwork Tattoo</h3>
+                <p>Este é um estilo de tatuagem que não envolve cores , onde a arte
+                    é feita toda com tons de preto,utilizando tecnicas de sombreamento e preenchimento para criar desenhos impactantes e expressivos. O Blackwork é conhecido por sua estética ousada e marcante, onde a ausência de cores destaca os detalhes e as formas da tatuagem, resultando em um visual único e poderoso.
+                    trazendo contraste e profundidade para a arte, o Blackwork é uma escolha popular para aqueles que buscam tatuagens com um estilo mais gráfico, moderno e único.
                 </p>
+                
 
             </div>
-            <div>
-                <figure>
-                    <img src="./img/skull.jpg" alt="graphic tattoo -estilo de trabalho">
-                    <figcaption>Graphic Tattoo</figcaption>
+            <div class="container-img">
+                <figure class="box-autoral">
+                    <img src="img/samurai.jpg" alt="estilo de trabalho">
+                    <figcaption>X-ray Tattoo</figcaption>
                 </figure>
+                <div class="box-artes">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
             </div>
         </section>
         <section class="container-value">
             <h2>Valores</h2>
             <div class="box-card">
-                <div class="card" >
-                    <div class="card-img">
-                        <img src="./img/mini1.jpg" alt="">
 
-                    </div>
-                    <div class="txt" id="card1">
-                        <p>Arte pequenas com poucos detalhes, até 8cm de tamanho! </p>
+                <div class="card">
+                    <img src="img/mini1.jpg" alt="">
+                    <button type="button" id="btn-txt">Mais informações</button>
+
+                </div> 
+                    <div class="card-txt"> 
+                        <p>Tatuagens pequenas até 8cm </p>
                         <span>R$ 349,99</span>
-                        <a href="" ><button type="button" onclick="whats()" target="_blank" >Agendar</button></a>
-                    </div>
-                </div>
-                <div class="card" >
-                    <div class="card-img">
-                        <img src="./img/witch.jpg" alt="">
-
-                    </div>
-                    <div class="txt" id="card2">
-                        <p>Arte com mais detalhes e um tamanho de até 15cm ! </p>
-                        <span>R$ 549,99</span>
-                        <a href=""><button onclick="whats()">Agendar</button></a>
-                    </div>
-                </div>
-                <div class="card" >
-                    <div class="card-img">
-                        <img src="./img/bike.jpg" alt="">
-
-                    </div>
-                    <div class="txt" id="card3">
-                        <p>Arte personalizada,com muitos detalhes e até 21 cm de tamanho!
+                        <p>Neste valor se enquadram trabalhos pequenos , com poucos detalhes
+                        como escritas, simbolos pequenos, tatuagens minimalistas e etc.
+                        Para tatuagens muito pequenas abaixo 5cm, poderá ser realizado até três tatuagens por esse valor, 
+                        desde que sejam feitas no mesmo dia e tenham um tema ou estilo semelhante.
                         </p>
-                        <span>R$ 849,99</span>
-                        <a href=""><button type="button" onclick="whats()" target="_blank">Agendar</button></a>
                     </div>
+            </div>
+            <div class="box-card">
+                <div class="card-txt2"> 
+                    <p>Tatuagens médias até 15cm </p>
+                    <span>R$ 549,99</span>
+                    <p>Neste valor se enquadram trabalhos medianos com um tamanho maior , com mais detalhes
+                        old school, minimalistas ,blackwork entre outros.
+                        
+                    </p>
+                </div>
+                
+                <div class="card">
+                    <img src="img/witch.jpg" alt="">
+                    <button type="button" id="btn-txt2">Mais informações</button>
+
+                </div> 
+            </div>
+            <div class="box-card">
+                <div class="card">
+                    <img src="img/paiefilho.jpg" alt="">
+                    <button type="button" id="btn-txt3">Mais informações</button>
+                
+
+                </div> 
+                <div class="card-txt3"> 
+                    <p>Tatuagens médias até 21cm </p>
+                    <span>R$ 549,99</span>
+                    <p>Neste valor se enquadram trabalhos grandes com até 21cm , com mais detalhes
+                    como artes realistas, blackwork, pontilhismo e artes personalizadas.
+                        
+                    </p>
                 </div>
             </div>
+                
+                
         </section>
     </main>
 
