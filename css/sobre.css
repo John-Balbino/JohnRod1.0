@@ -80,33 +80,61 @@
     
     margin: 0 auto;
 }
+.box-artes {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.thumb{
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+    filter: saturate(0);
+}
+.thumb:hover{
+    filter: saturate(1);
+
+}
 
 /*valores*/
 .container-value{
     display: flex;
     flex-direction: column;
-   
+    gap: 1em;
+    margin: 5%;
     font-size: 44px;
+   
+   
 }
-.container-value h2{
-    
-    text-align: center;
 
-}
 .box-card{
     display: flex;
-
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
     
-    margin: 5%;
-   
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 10px;
+}
+.card-txt,.card-txt2,.card-txt3{
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: left;
+    width: 200px;
+}
+.card-txt{
+    height: 280px;
+    overflow:scroll;
+    scrollbar-width: none;
+   
+   
 }
 .card figcaption{
     font-size: small;
@@ -117,6 +145,8 @@
     height: 300px;
     border-radius: 24px;
     filter: saturate(0);
+    
+   
 }
 .card-txt,.card-txt2,.card-txt3{
     display: flex;

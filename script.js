@@ -15,16 +15,28 @@ $('.card-txt2').hide();
 $('.card-txt3').hide();
 
 $('#btn-txt').on('click',function(){
-    $('.card-txt').fadeToggle(1000);
+    $('.card-txt').slideToggle(1000);
     
 })
 
 $('#btn-txt2').on('click',function(){
-    $('.card-txt2').fadeToggle(1000);
+    $('.card-txt2').slideToggle(1000);
 })
 $('#btn-txt3').on('click',function(){
-    $('.card-txt3').fadeToggle(1000);
+    $('.card-txt3').slideToggle(1000);
 })
+
+//script para img estilos
+//classes = thumb-img seleção e # ciaxa para imagens 
+
+$('.thumb').on('click',function(){
+    document.querySelector('#autoral').src = this.src
+    
+})
+$('#autoral').on('click',function(){
+    document.querySelector('#autoral').src = 'img/samurai.jpg'
+})
+
 
 
 
