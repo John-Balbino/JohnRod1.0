@@ -15,8 +15,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0;
         
-        width: 100%;
         
     
 
@@ -57,11 +57,12 @@
    
     main{
         display: flex;
-        width: 100%;
+       
         gap: 2em;
+        margin: 0;
     }
     main section{
-        width: 100%;
+        margin: none;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -75,10 +76,17 @@
         justify-content: center;
         gap: 10px
     }
+   .container-inicio figure{
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
    
 }
 
-@media(max-width:400px){
+@media(max-width:500px){
    
     main{
         display: flex;
@@ -99,5 +107,12 @@
         align-items: center;
         justify-content: center;
         gap: 10px
+    }
+    .box-artes{
+        width: 50%;
+    }
+    .box-artes img{
+        width: 200px;
+        height: 300px;
     }
 }  
